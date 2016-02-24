@@ -1,5 +1,9 @@
 @import "./stars.css";
 
-.content {
+.content-paragraph {
+  margin: 12px 0;
+}
 
+.content-paragraph:last-of-type {
+  margin-bottom: 0;
 }
