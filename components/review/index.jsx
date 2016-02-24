@@ -29,7 +29,7 @@ module.exports = React.createClass({
     var user = this.props.user
 
     return (
-      <div className="review">
+      <li className="review">
         <Sidebar
           avatarURL={user.avatarURL}
           name={user.name}
@@ -44,7 +44,7 @@ module.exports = React.createClass({
           date={this.props.date}
           text={this.props.reviewText}
         />
-      </div>
+      </li>
     )
   }
 })
