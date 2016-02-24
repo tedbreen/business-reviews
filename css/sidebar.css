@@ -1,0 +1,6 @@
+@import "./avatar.css";
+@import "./user-info.css";
+
+.sidebar {
+  display: flex;
+}
