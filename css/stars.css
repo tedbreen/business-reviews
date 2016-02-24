@@ -1,0 +1,48 @@
+.stars {
+  display: flex;
+  align-items: center;
+}
+
+.stars-regular {
+  width: 82px;
+  height: 14px;
+}
+
+.stars-xLarge {
+  width: 126px;
+  height: 22px;
+}
+
+.stars-regular-0      { background-position: -3px -3px;   }
+.stars-regular-1      { background-position: -3px -21px;  }
+.stars-regular-1-half { background-position: -3px -39px;  }
+.stars-regular-2      { background-position: -3px -57px;  }
+.stars-regular-2-half { background-position: -3px -75px;  }
+.stars-regular-3      { background-position: -3px -93px;  }
+.stars-regular-3-half { background-position: -3px -111px; }
+.stars-regular-4      { background-position: -3px -129px; }
+.stars-regular-4-half { background-position: -3px -147px; }
+.stars-regular-5      { background-position: -3px -165px; }
+
+.stars-xLarge-0      { background-position: -3px -514px; }
+.stars-xLarge-1      { background-position: -3px -539px; }
+.stars-xLarge-1-half { background-position: -3px -564px; }
+.stars-xLarge-2      { background-position: -3px -589px; }
+.stars-xLarge-2-half { background-position: -3px -614px; }
+.stars-xLarge-3      { background-position: -3px -639px; }
+.stars-xLarge-3-half { background-position: -3px -664px; }
+.stars-xLarge-4      { background-position: -3px -689px; }
+.stars-xLarge-4-half { background-position: -3px -714px; }
+.stars-xLarge-5      { background-position: -3px -739px; }
+
+.stars-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: url('../components/stars/stars_map.png');
+  background-repeat: no-repeat;
+}
+
+.stars-date {
+  margin-left: 6px;
+}
