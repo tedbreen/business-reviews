@@ -1,3 +1,5 @@
+@import "./app.css";
+
 body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 14px;
@@ -20,4 +22,11 @@ a:not(.btn):hover {
 small {
   font-size: 12px;
   line-height: 1.5;
+}
+
+/* layout */
+#react {
+  width: 990px;
+  margin: 0 auto;
+  padding: 15px;
 }
