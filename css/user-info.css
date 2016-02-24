@@ -1,0 +1,23 @@
+.userInfo-elite {
+  color: #dd5114;
+}
+
+.userInfo-icon {
+  display: inline-block;
+  vertical-align: middle;
+  width: 18px;
+  height: 18px;
+  background-repeat: none;
+}
+
+.userInfo-icon-common-sprite {
+  background-image: url('../components/user-info/common_sprite.png');
+}
+
+.userInfo-icon-friend {
+  background-position: -3px -1366px;
+}
+
+.userInfo-icon-star {
+  background-position: -3px -1780px;
+}
