@@ -30,6 +30,7 @@ module.exports = React.createClass({
       <div className="sidebar">
         <Avatar
           url={this.props.avatarURL}
+          profileURL={this.props.profileURL}
         />
         <UserInfo
           name={this.props.name}

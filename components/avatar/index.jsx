@@ -6,6 +6,7 @@ module.exports = React.createClass({
   , width: React.PropTypes.number
   , height: React.PropTypes.number
   , alt: React.PropTypes.string
+  , profileURL: React.PropTypes.string
   }
 
 , getDefaultProps: function getDefaultProps () {
@@ -20,13 +21,15 @@ module.exports = React.createClass({
 , render: function render () {
     return (
       <div className="avatar">
-        <img
-          className="avatar-image"
-          src={this.props.url}
-          width={this.props.width}
-          height={this.props.height}
-          alt={this.props.alt}
-        />
+        <a href={this.props.profileURL} target="_blank">
+          <img
+            className="avatar-image"
+            src={this.props.url}
+            width={this.props.width}
+            height={this.props.height}
+            alt={this.props.alt}
+          />
+        </a>
       </div>
     )
   }
