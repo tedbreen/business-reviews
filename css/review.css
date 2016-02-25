@@ -4,3 +4,13 @@
 .review {
   display: flex;
 }
+
+.review-sidebar {
+  width: 37.5%;
+  padding: 0 15px;
+}
+
+.review-content {
+  width: 62.5%;
+  padding: 0 15px;
+}

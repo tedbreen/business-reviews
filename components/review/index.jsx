@@ -30,20 +30,24 @@ module.exports = React.createClass({
 
     return (
       <li className="review">
-        <Sidebar
-          avatarURL={user.avatarURL}
-          name={user.name}
-          profileURL={user.profileURL}
-          location={user.location}
-          reviewCount={user.reviewCount}
-          friendCount={user.friendCount}
-          eliteYear={user.eliteYear}
-        />
-        <Content
-          rating={this.props.rating}
-          date={this.props.date}
-          text={this.props.reviewText}
-        />
+        <div className="review-sidebar">
+          <Sidebar
+            avatarURL={user.avatarURL}
+            name={user.name}
+            profileURL={user.profileURL}
+            location={user.location}
+            reviewCount={user.reviewCount}
+            friendCount={user.friendCount}
+            eliteYear={user.eliteYear}
+          />
+        </div>
+        <div className="review-content">
+          <Content
+            rating={this.props.rating}
+            date={this.props.date}
+            text={this.props.reviewText}
+          />
+        </div>
       </li>
     )
   }
