@@ -1,6 +1,6 @@
 var React = require('react')
 var ReactDOM = require('react-dom')
 // components
-var App = require('./components/app/')
+var Page = require('./components/page/')
 
-ReactDOM.render(<App />, document.getElementById('react'))
+ReactDOM.render(<Page />, document.getElementById('react'))

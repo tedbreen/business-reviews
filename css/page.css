@@ -1,21 +1,23 @@
-.app {
+@import "./review.css";
+
+.page {
   display: flex;
   margin: 0 -15px;
 }
 
-.app-leftColumn {
+.page-leftColumn {
   width: 66.6667%;
   border-right: 1px solid #e5e5e1;
   padding-right: 30px;
 }
 
-.app-reviewList > li {
+.page-reviewList > li {
   margin: 0;
   padding: 18px 0;
   border-bottom: 1px solid #e5e5e1;
 }
 
-.app-rightColumn {
+.page-rightColumn {
   width: 33.3333%;
   padding-right: 30px;
 }
