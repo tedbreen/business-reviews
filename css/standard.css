@@ -16,3 +16,8 @@ a {
 a:not(.btn):hover {
   text-decoration: underline;
 }
+
+small {
+  font-size: 12px;
+  line-height: 1.5;
+}
