@@ -1,0 +1,67 @@
+h1 {
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 21px;
+  line-height: 1.286;
+  margin: 10px 0;
+}
+
+h3 {
+  font-size: 16px;
+  line-height: 1.3125;
+  margin: 10px 0;
+}
+
+#documentation {
+  background-color: #f0f3f8;
+  padding: 20px;
+}
+
+.documentation {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.documentation-summary {
+  padding: 10px 20px;
+  background-color: #ffffff;
+  margin: 20px 0;
+}
+
+.documentation-summary p {
+  margin: 12px 0;
+}
+
+.documentation-componentTree {
+  width: 200px;
+  font-family: monospace;
+  font-size: 18px;
+  padding: 20px;
+  background-color: #ffffff;
+  margin: 20px 0;
+}
+
+.documentation-componentTree pre {
+  margin: 6px 0;
+}
+
+.documentation-componentContainer {
+  padding: 20px 0;
+}
+
+.documentation-componentContainer-container {
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.documentation-componentProps {
+  list-style-type: disc;
+}
+
+.documentation-componentProps li {
+  margin-left: 20px;
+}

@@ -7,6 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "browserify -t [ babelify --presets [ react es2015 ] ] --extension=jsx index.js -o dist/bundle-index.js --debug --verbose",
     "watch": "watchify -t [ babelify --presets [ react es2015 ] ] --extension=jsx index.js -o dist/bundle-index.js --debug --verbose",
+    "build-docs": "browserify -t [ babelify --presets [ react ] ] --extension=jsx docs.js -o dist/bundle-docs.js --debug --verbose",
+    "watch-docs": "watchify -t [ babelify --presets [ react ] ] --extension=jsx docs.js -o dist/bundle-docs.js --debug --verbose"
   },
   "repository": {
     "type": "git",
