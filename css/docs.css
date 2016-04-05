@@ -36,17 +36,22 @@ h3 {
   margin: 12px 0;
 }
 
-.documentation-componentTree {
-  width: 200px;
-  font-family: monospace;
-  font-size: 18px;
-  padding: 20px;
-  background-color: #ffffff;
+.documentation-tree-container {
   margin: 20px 0;
+  padding: 10px;
+  width: 300px;
+  background-color: #ffffff;
 }
 
-.documentation-componentTree pre {
-  margin: 6px 0;
+.documentation-tree {
+  font-family: monospace;
+  font-size: 18px;
+  padding-left: 30px;
+  list-style: initial;
+}
+
+.documentation-tree li {
+  margin: 10px 0;
 }
 
 .documentation-componentContainer {

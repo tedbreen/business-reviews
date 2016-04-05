@@ -10,6 +10,7 @@ var Sidebar = require('./components/sidebar/')
 var UserInfo = require('./components/user-info/')
 var Stars = require('./components/stars/')
 var Card = require('./components/card/')
+var Tree = require('./components/tree/')
 
 // example data
 var FIVE_STAR = 5
@@ -35,19 +36,19 @@ var Documentation = React.createClass({
 
         <h1>{'React component tree'}</h1>
 
-        <div className="documentation-componentTree">
-          <pre>{'Page: {'}</pre>
-          <pre>{'  Button: {},'}</pre>
-          <pre>{'  Review: {'}</pre>
-          <pre>{'    Sidebar: ['}</pre>
-          <pre>{'      Avatar,'}</pre>
-          <pre>{'      UserInfo'}</pre>
-          <pre>{'    ],'}</pre>
-          <pre>{'    Content: ['}</pre>
-          <pre>{'      Stars'}</pre>
-          <pre>{'    ]'}</pre>
-          <pre>{'  }'}</pre>
-          <pre>{'}'}</pre>
+        <div className="documentation-tree-container">
+          <Tree title="Page">
+            <Tree title="Button" />
+            <Tree title="Review" >
+              <Tree title="Sidebar" >
+                <Tree title="Avatar" />
+                <Tree title="UserInfo" />
+              </Tree>
+              <Tree title="Content" >
+                <Tree title="Stars" />
+              </Tree>
+            </Tree>
+          </Tree>
         </div>
 
         <h1>{'React components'}</h1>
